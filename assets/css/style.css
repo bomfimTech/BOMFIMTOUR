@@ -1,0 +1,31 @@
+/* ================= RESET ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= VARIÁVEIS ================= */
+
+:root {
+    --cor-primaria: #0A3D62;
+    --cor-secundaria: #F39C12;
+    --cor-texto: #333;
+    --cor-fundo: #ffffff;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+
+/* ================= ESTILO GLOBAL ================= */
+
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
