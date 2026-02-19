@@ -52,6 +52,49 @@ header nav a {
     color: white;
 }
 
+/* ================= TOP BAR ================= */
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    font-size: 14px;
+    background-color: #eeeeee;
+}
+
+/* ================= HEADER PRINCIPAL ================= */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+/* ================= MENU ================= */
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* ================= BOTÃO ================= */
+
+.btn-principal {
+    padding: 8px 15px;
+    background-color: var(--cor-secundaria);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
 /* ================= MAIN ================= */
 
 main {
