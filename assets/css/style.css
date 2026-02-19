@@ -115,3 +115,18 @@ h2 {
 article {
     margin-bottom: 20px;
 }
+
+/* ================= CARDS ================= */
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cards article {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
