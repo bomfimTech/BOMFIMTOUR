@@ -161,6 +161,11 @@ article {
     margin-bottom: 20px;
 }
 
+.hero-conteudo {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .hero h2 {
     font-size: 28px;
     margin-bottom: 15px;
