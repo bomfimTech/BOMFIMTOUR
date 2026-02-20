@@ -44,7 +44,9 @@
     <!-- RF02 - Banner Principal -->
 <main>
 
-    <section>
+    <section class="hero">
+
+        <div class="hero-conteudo">
 
         <!-- Imagem grande -->
         <img src="assets/images/hero.jpg" alt="Imagem principal da BomfimTour">
@@ -53,7 +55,9 @@
         <h2>Sua próxima aventura começa aqui</h2>
 
         <!-- Botão de ação -->
-        <button>Ver Pacotes</button>
+        <button class="btn-principal">Ver Pacotes</button>
+        
+        </div>
 
     </section>
 
@@ -150,38 +154,47 @@
 
         <!-- RF06 - Formulário de Contato -->
 
-    <section>
+    <section class="contato">
 
-        <h2>Contato</h2>
+    <h2>Contato</h2>
 
-        <!-- Área do formulário -->
-        <form>
+    <div class="contato-container">
 
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+        <!-- Formulário -->
+        <form class="formulario">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
 
-            <button type="submit">Enviar</button>
+            <div class="campo">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-principal">Enviar</button>
 
         </form>
 
-        <!-- Informações rápidas de contato -->
-        <div>
+        <!-- Informações -->
+        <div class="info-contato">
 
             <h3>Informações</h3>
-
             <p>WhatsApp: (85) 99090-7799</p>
             <p>Email: contato@bomfimtour.com</p>
             <p>Telefone: (11) 3333-3333</p>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 </main>
         <!-- RF07 - Rodapé -->

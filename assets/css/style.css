@@ -170,3 +170,45 @@ article {
     font-size: 28px;
     margin-bottom: 15px;
 }
+
+/* ================= CONTATO ================= */
+
+.contato-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.formulario {
+    flex: 1;
+    min-width: 280px;
+}
+
+.campo {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.campo textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.info-contato {
+    flex: 1;
+    min-width: 250px;
+}
