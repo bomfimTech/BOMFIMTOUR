@@ -30,6 +30,13 @@ img {
     height: auto;
 }
 
+/* ================= LOGO =================== */
+
+.logo img {
+    height: 85px;
+    width: auto;
+}
+
 /* ================= HEADER ================= */
 
 header {
