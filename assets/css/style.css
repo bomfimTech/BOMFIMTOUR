@@ -59,7 +59,8 @@ header nav a {
     justify-content: space-between;
     padding: 5px 20px;
     font-size: 14px;
-    background-color: #eeeeee;
+    background-color: var(--cor-primaria);
+    color: white
 }
 
 /* ================= HEADER PRINCIPAL ================= */
