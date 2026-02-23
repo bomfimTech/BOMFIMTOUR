@@ -213,3 +213,28 @@ article {
     flex: 1;
     min-width: 250px;
 }
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-info p {
+    margin-bottom: 5px;
+}
+
+.footer-redes img {
+    width: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+}
